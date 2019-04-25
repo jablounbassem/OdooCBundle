@@ -11,14 +11,17 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "psr-4": {
-            "Odoo\\ConnectorBundle\\": "src/"
+        "psr-0": {
+            "Odoo\\ConnectorBundle\\": ""
         }
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "OdooConnectorBundle"
+    "target-dir" : "Odoo/ConnectorBundle",
+    "repositories": [{
+    }
+    ],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "1.0.0"
         }
-    ]	
+    }
 }
