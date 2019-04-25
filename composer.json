@@ -1,0 +1,27 @@
+{
+    "name": "sofia-holding/odoo-connector-bundle",
+    "description": "Odoo symfony Connector",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bassem",
+            "email": "bassem.jabloun@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+		"php": "^7.1.3"
+	}
+    "autoload": {
+        "psr-4": {
+            "Odoo\\ConnectorBundle\\": "src/"
+        }
+    }
+    "repositories": [
+        {
+            "type": "path",
+            "url": "OdooConnectorBundle"
+        }
+    ]	
+}
