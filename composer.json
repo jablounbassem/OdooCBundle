@@ -9,7 +9,7 @@
             "email": "bassem.jabloun@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Odoo\\ConnectorBundle\\": "src/"
